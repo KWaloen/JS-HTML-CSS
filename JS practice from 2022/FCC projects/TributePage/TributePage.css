@@ -1,0 +1,25 @@
+h1{
+    font-size: 50px;
+  }
+  
+  h2{
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  h3{
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  h4{
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  img{
+    max-width: 100%;
+    display: block;
+  }
+  
+  

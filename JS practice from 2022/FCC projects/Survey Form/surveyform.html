@@ -1,0 +1,73 @@
+<main id="Survey Form">
+  <center>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">Full name:</label>
+    <input type="text" 
+           id="name" 
+           name="name" 
+           placeholder="Enter your name" 
+           required>
+    <br>
+    <br>
+    
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" 
+           id="email" 
+           email="email"
+           placeholder="Enter your Email"
+           required>
+    <br>
+    <br>
+    
+    <label for="age" id="number-label">Age (optional):</label>
+    <input type="number" 
+           id="number" 
+           age="age" 
+           min="1" 
+           max="100"
+           placeholder="Age">
+    <br>
+    <br>
+    
+    <label for="role" id="dropdown">What is your current role?</label>
+    <select role="role" id="dropdown">
+      <option value="" disabled selected>Select your current role</option>
+      <option value="Full time student">Fulltime student</option>       
+      <option value="Part time student">Parttime student</option>
+      <option value="Full time worker">Fulltime worker</option>
+      <option value="Freelancer">Freelancer</option>
+      <option value="Other">Other</option>
+      </select>
+      <br>
+      
+      
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+    <input name="recommendation" type="radio" value="definitely">Definitely</input><br>
+    <input name="recommendation" type="radio" value="maybe">Maybe</input><br>
+    <input name="recommendation" type="radio" value="not sure">Not sure</input><br>
+
+    <p>What would you like to see improved?<p>
+    <input name="improvements" type="checkbox" value="frontend">Front-end projects</input><br>
+    <input name="improvements" type="checkbox" value="backend">Back-end projects</input><br>  
+    <input name="improvements" type="checkbox" value="datavis">Data Visualization</input><br>  
+  
+    
+    <p>Any comments or suggestions?</p>
+    <textarea id="comments"
+              class="input-textarea"
+              name="comments" 
+              type="textbox"
+              placeholder="Enter your comments here..."
+              ></textarea>
+<br>
+
+<button input type="submit"
+        value="submit"
+        id="submit"
+        >Submit</button>
+
+   </form> 
+  </center>
+</main>

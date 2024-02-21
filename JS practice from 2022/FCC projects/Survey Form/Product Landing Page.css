@@ -1,0 +1,26 @@
+#nav-bar{
+    position:fixed;
+    top: 0px;
+    right: 10px;
+    text-align: right;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 650px) {
+    .header-img {
+      position: relative;
+    }
+  }
+  
+  .grid{
+    display: flex;
+  }

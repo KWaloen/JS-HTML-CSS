@@ -1,0 +1,25 @@
+
+
+#navbar{
+    position: fixed;
+    text-align: left;
+    margin-right: 50%;
+  }
+
+nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+
+#main-doc {
+  margin-left: 250px;
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+}
